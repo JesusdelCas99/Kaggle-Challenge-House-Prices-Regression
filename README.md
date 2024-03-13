@@ -8,4 +8,4 @@ Project files and folder structure:
 - `data/train.csv`: Training data set.
 - `data/test.csv`: Test data set.
 - `data/data_description.txt`: Provides detailed descriptions for each column in the dataset.
-- `data/sample_submission.csv`: Includes a sample submission file.
+- `data/sample_submission.csv`: Sample submission file.
