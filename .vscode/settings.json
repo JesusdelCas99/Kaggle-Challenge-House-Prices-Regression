@@ -1,6 +1,5 @@
 {
-    "workbench.colorTheme": "Default Light Modern",
     "editor.fontFamily": "Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "notebook.markup.fontSize": 21
+    "workbench.colorTheme": "Atom One Dark"
 }
