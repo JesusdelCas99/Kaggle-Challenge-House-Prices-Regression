@@ -5,7 +5,7 @@ This project tackles the Kaggle challenge "House Prices - Advanced Regression Te
 
 Project files and folder structure:
 
-- `data/train.csv`: Stores the training data set
-- `data/test.csv`: Stores the test data set
+- `data/train.csv`: Training data set.
+- `data/test.csv`: Test data set.
 - `data/data_description.txt`: Provides detailed descriptions for each column in the dataset.
-- `data/sample_submission.csv`: Includes a sample submission file from a linear regression on year and month of sale, lot square footage, and number of bedrooms
+- `data/sample_submission.csv`: Includes a sample submission file.
