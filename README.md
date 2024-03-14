@@ -18,4 +18,4 @@ Project files and folder structure:
 
 ## Acknowledgments
 
-For detailed information about the code and its functionalities, please refer to the inline comments within the source files.
+For detailed information about the code and its functionalities, please refer to the inline comments within the source files. Feel free to explore the codebase and contribute to further enhancements or bug fixes!
