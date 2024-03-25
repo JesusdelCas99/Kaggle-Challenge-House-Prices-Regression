@@ -9,7 +9,7 @@ This project tackles the Kaggle challenge [House Prices: Advanced Regression Tec
 
 
 ## Model Summary
-The table below provides an overview of the models developed for this competition, including their linear coefficient (R²) and the leaderboard score obtained once submitted to Kaggle:
+The table below provides an overview of the models developed for this competition:
 
 | Model              | R²      | Leaderboard Score | Training Split Ratio | Validation Split Ratio |
 |--------------------|---------|-------------------|----------------------|------------------------|
