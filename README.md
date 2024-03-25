@@ -23,7 +23,7 @@ The table below provides an overview of the models developed for this competitio
 | Linear Regression  | 0.91152 | 0.35392           | 0.85                 | 0.15                   |
 | Regression Tree    | 0.80361 | 0.23367           | 0.85                 | 0.15                   |
 
-(*****) Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price.
+(**\***) Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price.
 
 ## Repository Structure
 
