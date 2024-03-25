@@ -30,7 +30,7 @@ The table below provides an overview of the models developed for this competitio
 
 Project files and folder structure:
 - `models`: Models folder.
-- `submission`: Submission files for each model.
+- `submission`: Contains submission files, one for each model.
 - `data/train.csv`: Training data set.
 - `data/test.csv`: Test data set.
 - `data/data_description.txt`: Dataset feature description.
