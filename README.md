@@ -19,10 +19,10 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 ## Model Summary
 The table below provides an overview of the models developed for this competition:
 
-| Model              | R²      | Leaderboard Score\* | Training Split Ratio | Validation Split Ratio |
-|--------------------|---------|-------------------|----------------------|------------------------|
-| Linear Regression  | 0.91152 | 0.35392           | 0.85                 | 0.15                   |
-| Regression Tree    | 0.80361 | 0.23367           | 0.85                 | 0.15                   |
+| Model              | R²      | Leaderboard Score\* | Split Ratio |
+|--------------------|---------|-------------------|----------------------|
+| Linear Regression  | 0.91152 | 0.35392           | 0.85                 |
+| Regression Tree    | 0.80361 | 0.23367           | 0.85                 |
 
 (**\***) Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price.
 
