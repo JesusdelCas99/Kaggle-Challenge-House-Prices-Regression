@@ -11,17 +11,17 @@ This project tackles the Kaggle challenge [House Prices: Advanced Regression Tec
 ## Model Summary
 The table below provides an overview of the models developed for this competition, including their linear coefficient (R²) and the leaderboard score obtained once submitted via Kaggle:
 
-| Model             | R²    | Leaderboard Score |
-|-------------------|-------|-------------------|
-| Linear Regression | 0.911   | 0.35392               |
-| Regression Tree   | 0.803   | 0.23367              |
+| Model              | R²      | Leaderboard Score | Training Split Ratio | Validation Split Ratio |
+|--------------------|---------|-------------------|----------------------|------------------------|
+| Linear Regression  | 0.91152 | 0.35392           | 0.85                 | 0.15                   |
+| Regression Tree    | 0.80361 | 0.23367           | 0.85                 | 0.15                   |
 
 
 ## Repository Structure
 
 Project files and folder structure:
 - `models`: Models folder.
-- `submission`: Submission files.
+- `submission`: Submission files for each model.
 - `data/train.csv`: Training data set.
 - `data/test.csv`: Test data set.
 - `data/data_description.txt`: Dataset feature description.
