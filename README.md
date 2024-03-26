@@ -28,7 +28,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 #### Deep Learning Models
 
-| Model    | EPOCHs | LR   | BS  | E.S (Ptnc) | Loss | SR (%) | Train. Loss | Val. Loss | Train. R² | Val. R² | LS\*   |
+| Model    | EPOCHs | LR   | Batch Size  | Patience | Loss | Split Ratio (%) | Train. Loss | Val. Loss | Train. R² | Val. R² | Leaderboard Score\*   |
 |----------|--------|-------|-----|------------|------|--------|--------------|-----------|-----------|---------|---------|
 | FFDNN    | 4000   | 1e-4  |  20 | 200        | MSLE |  85/15 | 0.0393       | 0.0511    | 0.7510    | 0.2834  | 0.21338 |
 
