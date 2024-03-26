@@ -17,14 +17,28 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 
 ## Model Summary
-The table below provides an overview of the models developed for this competition:
+The table below provides an overview of the models developed and fine-tuned for this competition. To facilitate understanding, common acronyms from the fields of machine learning and deep learning have been employed. These include Mean Squared Logarithmic Error (MSLE), Learning Rate (LR), Early Stopping (ES), Split Ratio (SR), and Batch Size (BS). The relevance of these terms to the current work will become evident as they appear throughout the text.
 
-| Model              | R²      | Leaderboard Score\* | Split Ratio |
-|--------------------|---------|-------------------|----------------------|
-| Linear Regression  | 0.91152 | 0.35392           | 0.85                 |
-| Regression Tree    | 0.80361 | 0.23367           | 0.85                 |
+### Machine Learning Models
 
-(**\***) Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price.
+| Model              | R² (Val. Data) | SR (%) | LS\* |
+|--------------------|-----------------|-----------------|-------------|
+| Linear Regression  | 0.91152         |       85/15     | 0.35392     |
+| Regression Tree    | 0.80361         |       85/15     | 0.23367     |
+
+### Deep Learning Models
+
+| Model    | EPOCHs | LR   | BS  | ES | Patience | Loss  | SR (%) | LS\* |
+|----------|--------|------|-----|-------|----------|-------|----------|---------|
+| FFDNN    | 4000   | 1e-4 |  20 |  Yes  | 200      | MSLE  |  85/15   | 0.21338 |
+
+#### Deep Learning Models Training Metrics
+
+| Model    | Loss | Loss (Train. Data) | Loss (Val. Data) | R² (Train. Data) | R² (Val. Data) |
+|----------|------|---------------------|------------------|-------------------|----------------|
+| FFDNN    | MSLE | 0.0393              |  0.0511          |  0.7510           |  0.2834        |
+
+**\*** Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
 
 ## Repository Structure
 
