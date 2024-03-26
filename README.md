@@ -28,9 +28,9 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 #### Deep Learning Models
 
-| Model              | EPOCHs | LR   | Batch Size | Loss           | R² (Train. Data) | Split Ratio (%)    | LS\* |
-|--------------------|--------|------|-------------|----------------|---------------------|--------------------|------------|
-| FFDNN              | 4000   | 1e-4 |  20         | MSLE (0.0393)  | 0.7510              | 85/15              | 0.21338    |
+| Model              | EPOCHs | LR   | Batch Size | Loss           | Patience | Split Ratio (%)   | LS\* |
+|--------------------|--------|------|-------------|----------------|----------|--------------------|------------|
+| FFDNN              | 4000   | 1e-4 |  20         | MSLE (0.0393)  | 200      | 85/15              | 0.21338    |
 
 (**\***) Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price.
 
