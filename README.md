@@ -21,16 +21,16 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 #### Machine Learning Models
 
-| Model              | R² (Val. Data) | Split Ratio (%) | Leaderboard Score\* |
+| Model              | R² (Val. Data) | S. R (%) | L. Score\* |
 |--------------------|-----------------|-----------------|-------------|
 | Linear Regression  | 0.91152         |       85/15     | 0.35392     |
 | Regression Tree    | 0.80361         |       85/15     | 0.23367     |
 
 #### Deep Learning Models
 
-| Model    | EPOCHs | LR   | Batch Size  | Patience | Loss | Split Ratio (%) | Leaderboard Score\* |
-|----------|--------|-------|-----|----------|------|--------|-----------------------|
-| FFDNN    | 4000   | 1e-4  |  20 | 200      | MSLE |  85/15 | 0.21338               |
+| Model    | EPOCHs | LR   | BS  | E. S | Patience | Loss  | S. R (%) | L. Score\* |
+|----------|--------|------|-----|-------|----------|-------|----------|---------|
+| FFDNN    | 4000   | 1e-4 |  20 |  Yes  | 200      | MSLE  |  85/15   | 0.21338 |
 
 (**\***) Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price.
 
