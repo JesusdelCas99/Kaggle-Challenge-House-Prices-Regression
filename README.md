@@ -19,14 +19,14 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 ## Model Summary
 The table below provides an overview of the models developed and fine-tuned for this competition:
 
-#### Machine Learning Models
+### Machine Learning Models
 
 | Model              | R² (Val. Data) | S. Ratio (%) | L. Score\* |
 |--------------------|-----------------|-----------------|-------------|
 | Linear Regression  | 0.91152         |       85/15     | 0.35392     |
 | Regression Tree    | 0.80361         |       85/15     | 0.23367     |
 
-#### Deep Learning Models
+### Deep Learning Models
 
 | Model    | EPOCHs | LR   | Batch Size  | E. S | Patience | Loss  | S. Ratio (%) | L. Score\* |
 |----------|--------|------|-----|-------|----------|-------|----------|---------|
