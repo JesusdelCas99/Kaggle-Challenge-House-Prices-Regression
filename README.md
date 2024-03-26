@@ -21,14 +21,14 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 #### Machine Learning Models
 
-| Model              | R² (Val. Data) | Split Ratio (%) | Leaderboard Score\* |
+| Model              | R² (Val. Data) | Split Ratio (%) | LS\* |
 |--------------------|-----------------|-----------------|-------------|
 | Linear Regression  | 0.91152         |       85/15     | 0.35392     |
 | Regression Tree    | 0.80361         |       85/15     | 0.23367     |
 
 #### Deep Learning Models
 
-| Model              | EPOCHs | LR   | Batch Size | Loss           | R² (Train. Data) | Split Ratio (%)    | Leaderboard Score\* |
+| Model              | EPOCHs | LR   | Batch Size | Loss           | R² (Train. Data) | Split Ratio (%)    | LS\* |
 |--------------------|--------|------|-------------|----------------|---------------------|--------------------|------------|
 | FFDNN              | 4000   | 1e-4 |  20         | MSLE (0.0393)  | 0.7510              | 85/15              | 0.21338    |
 
