@@ -36,7 +36,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | Model    | Loss | Loss (Train. Data) | Loss (Val. Data) | R² (Train. Data) | R² (Val. Data) |
 |----------|------|---------------------|------------------|-------------------|----------------|
-| FFDNN    | MSLE | 0.0393              |  0.0511          |  0.7510           |  0.2834        |
+| FFDNN    | MSLE | 0.0405             |  0.0510          |  0.7375           |  0.2842        |
 
 **\*** Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
 
