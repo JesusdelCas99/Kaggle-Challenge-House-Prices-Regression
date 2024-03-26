@@ -21,14 +21,14 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 #### Machine Learning Models
 
-| Model              | R² (Val. Data) | S. R (%) | L. Score\* |
+| Model              | R² (Val. Data) | S. Ratio (%) | L. Score\* |
 |--------------------|-----------------|-----------------|-------------|
 | Linear Regression  | 0.91152         |       85/15     | 0.35392     |
 | Regression Tree    | 0.80361         |       85/15     | 0.23367     |
 
 #### Deep Learning Models
 
-| Model    | EPOCHs | LR   | BS  | E. S | Patience | Loss  | S. R (%) | L. Score\* |
+| Model    | EPOCHs | LR   | Batch Size  | E. S | Patience | Loss  | S. Ratio (%) | L. Score\* |
 |----------|--------|------|-----|-------|----------|-------|----------|---------|
 | FFDNN    | 4000   | 1e-4 |  20 |  Yes  | 200      | MSLE  |  85/15   | 0.21338 |
 
