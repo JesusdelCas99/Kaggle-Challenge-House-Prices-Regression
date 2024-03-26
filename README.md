@@ -32,7 +32,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 |----------|--------|------|-----|-------|----------|-------|----------|---------|
 | FFDNN    | 4000   | 1e-4 |  20 |  Yes  | 200      | MSLE  |  85/15   | 0.21338 |
 
-#### Deep Learning Models Training Metrics
+#### Training Metrics
 
 | Model    | Loss | Loss (Train. Data) | Loss (Val. Data) | R² (Train. Data) | R² (Val. Data) |
 |----------|------|---------------------|------------------|-------------------|----------------|
