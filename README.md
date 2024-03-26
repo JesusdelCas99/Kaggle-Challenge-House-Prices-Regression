@@ -43,7 +43,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 ## Repository Structure
 
 Project files and folder structure:
-- `models`: Models folder.
+- `models`: Regression models folder.
 - `submission`: Submission files for each model.
 - `data/train.csv`: Training data set.
 - `data/test.csv`: Test data set.
