@@ -22,14 +22,14 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 ### Machine Learning Models
 
-| Model              | R² (Val. Data) | SR (%) | L. Score*   |
+| Model              | R² | SR (%) | L. Score*   |
 |--------------------|----------------|--------|-------|
 | Linear Regression  | 0.9115        | 85/15  | 0.3539 |
 | Regression Tree    | 0.8036        | 85/15  | 0.2336 |
 
 ### Ensembling Methods
 
-| Model          | Estimators | R² (Val. Data) | SR (%) | L. Score*   |
+| Model          | Estimators | R² | SR (%) | L. Score*   |
 |----------------|------------|----------------|--------|-------|
 | Random Forest  | 100        | 0.9076       | 85/15  | 0.1565 |
 
