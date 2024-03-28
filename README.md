@@ -35,9 +35,9 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 ### Deep Learning Models
 
-| Model   | EPOCHs | LR   | BS  | ES  | Patience | Loss | SR (%) | L. Score*   |
-|---------|--------|------|-----|-----|----------|------|--------|-------|
-| FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 85/15 | 0.2133 |
+| Model   | EPOCHs | LR   | BS | ES  | Patience | Loss | R²     |SR (%) | L. Score* |
+|---------|--------|------|-----|-----|----------|------|--------|-------|------|
+| FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 0.7375 | 85/15 | 0.2133 |
 
 **\*** Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
 
