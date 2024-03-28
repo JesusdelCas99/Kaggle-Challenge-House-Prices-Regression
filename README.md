@@ -24,20 +24,20 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | Model              | R² (Val. Data) | SR (%) | LS*   |
 |--------------------|----------------|--------|-------|
-| Linear Regression  | 0.91152        | 85/15  | 0.35392 |
-| Regression Tree    | 0.80361        | 85/15  | 0.23367 |
+| Linear Regression  | 0.9115        | 85/15  | 0.3539 |
+| Regression Tree    | 0.8036        | 85/15  | 0.2336 |
 
 ### Ensembling Methods
 
 | Model          | Estimators | R² (Val. Data) | SR (%) | LS*   |
 |----------------|------------|----------------|--------|-------|
-| Random Forest  | 100        | 0.90764        | 85/15  | 0.15654 |
+| Random Forest  | 100        | 0.9076       | 85/15  | 0.1565 |
 
 ### Deep Learning Models
 
 | Model   | EPOCHs | LR   | BS  | ES  | Patience | Loss | SR (%) | LS*   |
 |---------|--------|------|-----|-----|----------|------|--------|-------|
-| FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 85/15 | 0.21338 |
+| FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 85/15 | 0.2133 |
 
 #### Training Metrics
 
