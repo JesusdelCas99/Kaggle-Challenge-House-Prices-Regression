@@ -20,7 +20,7 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 The table below provides an overview of the models developed and fine-tuned for this competition. To facilitate understanding, common acronyms from the fields of machine learning have been employed. These include Mean Squared Logarithmic Error (MSLE), Learning Rate (LR), Early Stopping (ES), Split Ratio (SR) and Batch Size (BS).
 
-### Traditional Machine Learning Models
+### Machine Learning Models
 
 | Model              | R² (Val. Data) | SR (%) | LS*   |
 |--------------------|----------------|--------|-------|
@@ -39,13 +39,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 |---------|--------|------|-----|-----|----------|------|--------|-------|
 | FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 85/15 | 0.2133 |
 
-#### Training Metrics
-
-| Model   | Loss (Train. Data) | Loss (Val. Data) | R² (Train. Data) | R² (Val. Data) |
-|---------|--------------------|------------------|-------------------|----------------|
-| FFDNN    | 0.0405             | 0.0510           | 0.7375            | 0.2842         |
-
-* Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
+**\*** Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
 
 
 ## Repository Structure
