@@ -18,24 +18,24 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 ## Model Summary
 
-The table below provides an overview of the models developed and fine-tuned for this competition. To facilitate understanding, common acronyms from the fields of machine learning and deep learning have been employed. These include Mean Squared Logarithmic Error (MSLE), Learning Rate (LR), Early Stopping (ES), Split Ratio (SR), and Batch Size (BS).
+The table below provides an overview of the models developed and fine-tuned for this competition. To facilitate understanding, common acronyms from the fields of machine learning and deep learning have been employed. These include Mean Squared Logarithmic Error (MSLE), Learning Rate (LR), Early Stopping (ES) and Split Ratio (SR).
 
 ### Traditional Machine Learning Models
 
-| Model              | R² (Val. Data) | Split Ratio (%) | LS*   |
+| Model              | R² (Val. Data) | SR (%) | LS*   |
 |--------------------|----------------|--------|-------|
 | Linear Regression  | 0.9115        | 85/15  | 0.3539 |
 | Regression Tree    | 0.8036        | 85/15  | 0.2336 |
 
 ### Ensembling Methods
 
-| Model          | Estimators | R² (Val. Data) | Split Ratio (%) | LS*   |
+| Model          | Estimators | R² (Val. Data) | SR (%) | LS*   |
 |----------------|------------|----------------|--------|-------|
 | Random Forest  | 100        | 0.9076       | 85/15  | 0.1565 |
 
 ### Deep Learning Models
 
-| Model   | EPOCHs | LR   | Batch Size  | ES  | Patience | Loss | Split Ratio (%) | LS*   |
+| Model   | EPOCHs | LR   | Batch Size  | ES  | Patience | Loss | SR (%) | LS*   |
 |---------|--------|------|-----|-----|----------|------|--------|-------|
 | FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 85/15 | 0.2133 |
 
