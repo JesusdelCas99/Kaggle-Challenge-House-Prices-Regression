@@ -24,8 +24,8 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | <img width=38/>Model<img width=38/>               | KFold | RMSLE | R²   | L. Score* |
 |:---------------------------------------------:|:-----:|:------:|:-----------:|:----------:|
-| Linear Regression                             |   10  | 0.3507 | 0.7124 |     85/15   |    0.2004  |
-| Regression Tree                               |   10  | 0.2161 | 0.7034 |     85/15   |    0.17341  |
+| Linear Regression                             |   10  | 0.3507 | 0.7124 |    0.2004  |
+| Regression Tree                               |   10  | 0.2161 | 0.7034 |   0.17341  |
 
 ### Ensembling Methods
 
