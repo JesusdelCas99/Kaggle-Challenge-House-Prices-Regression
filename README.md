@@ -24,7 +24,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | <img width=38/>Model<img width=38/>               | KFold | RMSLE | R²     | Split Ratio | L. Score* |
 |:---------------------------------------------:|:-----:|:------:|:-----------:|:----------:|:----------:|
-| Linear Regression                             |   10  | 0.8555 | 0.9115 |     85/15   |    0.3539  |
+| Linear Regression                             |   10  | 0.3507 | 0.7124 |     85/15   |    0.2004  |
 | Regression Tree                               |   10  | 0.8555 | 0.8036 |     85/15   |    0.2336  |
 
 ### Ensembling Methods
