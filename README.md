@@ -31,7 +31,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | <img width=38/>Model<img width=38/>                 | KFold | RMSLE | R²     | Split Ratio | L. Score* |
 |:-----------------------------------------------:|:-----:|:------:|:-----------:|:----------:|:----------:|
-| Random Forest                                   |   10  | 0.8555 | 0.9076 |     85/15   |    0.1565  |
+| Random Forest                                   |   10  | 0.1503 | 0.8593 |     85/15   |    0.1565  |
 
 ### Deep Learning Models
 
