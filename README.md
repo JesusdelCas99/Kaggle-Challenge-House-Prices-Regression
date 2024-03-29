@@ -22,22 +22,23 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 ### Machine Learning Models
 
-| Model              | KFold | R²       | Split Ratio | L. Score* |
-|--------------------|-------|-----------|-------------|------------|
-| Linear Regression  | 10    | 0.9115    | 85/15       | 0.3539     |
-| Regression Tree    | 10    | 0.8036    | 85/15       | 0.2336     |
+| <img width=38/>Model<img width=38/>               | KFold | R²     | Split Ratio | L. Score* |
+|:---------------------------------------------:|:-----:|:------:|:-----------:|:----------:|
+| Linear Regression                             |   10  | 0.9115 |     85/15   |    0.3539  |  
+| Regression Tree                               |   10  | 0.8036 |     85/15   |    0.2336  |  
 
 ### Ensembling Methods
 
-| Model          | KFold | R²       | Split Ratio | L. Score* |
-|----------------|-------|----------|-------------|------------|
-| Random Forest  | 10    | 0.9076   | 85/15       | 0.1565     |
+| <img width=38/>Model<img width=38/>                 | KFold | R²     | Split Ratio | L. Score* |
+|:-----------------------------------------------:|:-----:|:------:|:-----------:|:----------:|
+| Random Forest                                   |   10  | 0.9076 |     85/15   |    0.1565  |  
 
 ### Deep Learning Models
 
-| Model   | KFold | R²      | Split Ratio | L. Score* |
-|---------|-------|---------|-------------|------------|
-| FFDNN   | 10    | 0.7375  | 85/15       | 0.2133     |
+| <img width=38/>Model<img width=38/> | KFold | R²     | Split Ratio | L. Score* |
+|:--------------------------:|:-----:|:------:|:-----------:|:----------:|
+| FFDNN                      |   10  | 0.7375 |     85/15   |    0.2133  |  
+
 
 
 **\*** Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
