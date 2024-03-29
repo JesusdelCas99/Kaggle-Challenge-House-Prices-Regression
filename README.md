@@ -31,7 +31,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | <img width=38/>Model<img width=38/>                 | KFold | RMSLE | R²    | L. Score* |
 |:-----------------------------------------------:|:-----:|:------:|:-----------:|:----------:|
-| Random Forest                                   |   10  | 0.1503 | 0.8593 |  0.1565  |
+| Random Forest                                   |   10  | 0.1503 | 0.8593 |  0.1550  |
 
 ### Deep Learning Models
 
