@@ -22,22 +22,22 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 ### Machine Learning Models
 
-| <img width=38/>Model<img width=38/>               | KFold | RMSLE | R²     | Split Ratio | L. Score* |
-|:---------------------------------------------:|:-----:|:------:|:-----------:|:----------:|:----------:|
+| <img width=38/>Model<img width=38/>               | KFold | RMSLE | R²   | L. Score* |
+|:---------------------------------------------:|:-----:|:------:|:-----------:|:----------:|
 | Linear Regression                             |   10  | 0.3507 | 0.7124 |     85/15   |    0.2004  |
 | Regression Tree                               |   10  | 0.2161 | 0.7034 |     85/15   |    0.17341  |
 
 ### Ensembling Methods
 
-| <img width=38/>Model<img width=38/>                 | KFold | RMSLE | R²     | Split Ratio | L. Score* |
-|:-----------------------------------------------:|:-----:|:------:|:-----------:|:----------:|:----------:|
-| Random Forest                                   |   10  | 0.1503 | 0.8593 |     85/15   |    0.1565  |
+| <img width=38/>Model<img width=38/>                 | KFold | RMSLE | R²    | L. Score* |
+|:-----------------------------------------------:|:-----:|:------:|:-----------:|:----------:|
+| Random Forest                                   |   10  | 0.1503 | 0.8593 |  0.1565  |
 
 ### Deep Learning Models
 
-| <img width=38/>Model<img width=38/> | KFold | RMSLE | R²     | Split Ratio | L. Score* |
-|:--------------------------:|:-----:|:------:|:-----------:|:----------:|:----------:|
-| FFDNN                      |   10  | 0.8555 | 0.7375 |     85/15   |    0.2133  |  
+| <img width=38/>Model<img width=38/> | KFold | RMSLE | R²  | L. Score* |
+|:--------------------------:|:-----:|:------:|:-----------:|:----------:|
+| FFDNN                      |   10  | 0.8555 | 0.7375 |  0.2133  |  
 
 
 **\*** Leaderboard Scores (LS) are based on the Root Mean Squared Logarithmic Error (RMSLE) between the predicted values and the observed sales price. Lower scores indicate better performance.
