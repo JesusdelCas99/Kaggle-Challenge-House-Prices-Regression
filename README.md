@@ -18,26 +18,27 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 ## Model Summary
 
-The table below provides an overview of the models developed and fine-tuned for this competition. To facilitate understanding, common acronyms from the fields of machine learning have been employed. These include Mean Squared Logarithmic Error (MSLE), Learning Rate (LR), Early Stopping (ES), Split Ratio (SR) and Batch Size (BS).
+The table below provides an overview of the models developed and fine-tuned for this competition:
 
 ### Machine Learning Models
 
-| Model              | R² | SR (%) | L. Score*   |
-|--------------------|----------------|--------|-------|
-| Linear Regression  | 0.9115        | 85/15  | 0.3539 |
-| Regression Tree    | 0.8036        | 85/15  | 0.2336 |
+| Model              | KFold | R²       | Split Ratio | L. Score* |
+|--------------------|-------|-----------|-------------|------------|
+| Linear Regression  | 10    | 0.9115    | 85/15       | 0.3539     |
+| Regression Tree    | 10    | 0.8036    | 85/15       | 0.2336     |
 
 ### Ensembling Methods
 
-| Model          | Estimators | R² | SR (%) | L. Score*   |
-|----------------|------------|----------------|--------|-------|
-| Random Forest  | 100        | 0.9076       | 85/15  | 0.1565 |
+| Model          | KFold | R²       | Split Ratio | L. Score* |
+|----------------|-------|----------|-------------|------------|
+| Random Forest  | 10    | 0.9076   | 85/15       | 0.1565     |
 
 ### Deep Learning Models
 
-| Model   | EPOCHs | LR   | BS | ES  | Patience | Loss | R²     |SR (%) | L. Score* |
-|---------|--------|------|-----|-----|----------|------|--------|-------|------|
-| FFDNN   | 4000   | 1e-4 | 20  | Yes | 200      | MSLE | 0.7375 | 85/15 | 0.2133 |
+| Model   | KFold | R²      | Split Ratio | L. Score* |
+|---------|-------|---------|-------------|------------|
+| FFDNN   | 10    | 0.7375  | 85/15       | 0.2133     |
+
 
 **\*** Leaderboard Scores (LS) are based on the Root Mean Squared Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Lower scores indicate better performance.
 
