@@ -37,7 +37,7 @@ The table below provides an overview of the models developed and fine-tuned for 
 
 | <img width=38/>Model<img width=38/> | KFold | RMSLE | R²  | L. Score* |
 |:--------------------------:|:-----:|:------:|:-----------:|:----------:|
-| FFDNN                      |   10  | 0.8555 | 0.7375 |  0.2133  |  
+| FFDNN                      |   10  | 0.2048 | 0.6872 |  0.2156  |  
 
 
 **\*** Leaderboard Scores (LS) are based on the Root Mean Squared Logarithmic Error (RMSLE) between the predicted values and the observed sales price. Lower scores indicate better performance.
