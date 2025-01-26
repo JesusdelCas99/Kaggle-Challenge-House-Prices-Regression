@@ -5,7 +5,6 @@ This project tackles the Kaggle challenge [House Prices: Advanced Regression Tec
 ## Table of Contents
 - [Competition Description](#competition-description)
 - [Model Summary](#model-summary)
-- [Repository Structure](#repository-structure)
 - [Acknowledgments](#acknowledgments)
 
 ## Competition Description
